@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="tint">
+    <script src="../js/main.js" defer></script>
+
+    
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container" id="expandnav">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><img class="icons" src="../svgs&pics/home.svg" height="20"> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="thetrailbehind.html"><img class="icons" src="../svgs&pics/behind.svg" height="20"> The Trail Behind</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="thetrailahead.html"><img class="icons" src="../svgs&pics/ahead.svg" height="20"> The Trail Ahead</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="languages.html"><img class="icons" src="../svgs&pics/code.svg" height="20"> Languages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="thesidetrails.html"><img class="icons" src="../svgs&pics/side.svg" height="20"> The Side Trails</a>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="icons" src="../svgs&pics/likes.svg" height="20"> More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="review.html">Tea Review</a></li>
+                  <li><a class="dropdown-item active" aria-current="page" href="form.html">Feedback</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Actual Content -->
+      <div>
+
+        <!-- Identification Section -->
+        <form name="meform" method="post" class="was-validated" action="bootstrap_thanks.html">
+          <div class="fs-1 fw-bold  ">Feedback Form</div>
+          <div>Your feedback is extremely valuable to the development of my site.</div>
+          <div class="mt-3 mb-1 fs-3  ">Identification</div>
+          <div class="row">
+              <div class="col form-floating mb-3 col-12 col-lg-6 col-md-7  ">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="First name" required>
+                  <label for="floatingInput">&nbsp&nbsp First name</label>
+                  <div class="valid-feedback">
+                    Great
+                  </div>
+                  <div class="invalid-feedback">
+                    kimi no na wa.
+                  </div>
+              </div>
+              <div class="col form-floating mb-3 col-md-5 col-lg-4  ">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Last name">
+                  <label for="floatingInput">&nbsp&nbsp Last name (Optional)</label>
+              </div>
+              <div class="col-md-4 col-lg-2  ">
+                <select class="form-select mb-3" aria-label="Gender" required>
+                  <option value="" selected disabled hidden>Gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Female">LGBTQABCDEFG+</option>
+                  <option value="Female">I rather not say</option>
+                </select>
+              </div>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="mt-3 mb-1 fs-3  ">Contacts</div>
+          <div class="form-floating mb-3  ">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+              <label for="floatingInput">Email address</label>
+          </div>
+          
+          <div class="form-floating mb-3  ">
+              <input type="text" class="form-control" id="floatingInput" placeholder="number" required>
+              <label for="floatingInput">Phone number</label>
+          </div>
+
+          <!-- Satisfaction Section -->
+          <div class="mt-3 mb-1 fs-3  ">Satisfaction</div>
+          <div class="mb-4  ">
+              <label for="customRange1" class="form-label" required>How satisfied are you with the website? (0 for very unsatisfied, 10 for very satisfied)</label>
+              <div></div>
+              <div class="btn-group  " role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-danger">Not Satisfied</button>
+                <button type="button" class="btn btn-warning">Meh</button>
+                <button type="button" class="btn btn-success">Very Satisfied</button>
+              </div>
+              
+          </div>
+          <select class="form-select mb-3  " aria-label="fav page" required>
+              <option value="" selected disabled hidden>Most Useful Page</option>
+              <option value="Home">The Trip</option>
+              <option value="Sp Experience">The Trail Behind</option>
+              <option value="Courses Offered">The Trail Ahead</option>
+              <option value="Job options">The Side Trail</option>
+              <option value="Feedback">Other</option>
+          </select>
+          <div class="mb-4  ">
+              <label for="customRange1" class="form-label">How would you rate the website?</label>
+              <div class="space-between">
+                  <input type="radio" name="easiness" id="easiness" value="very not easy">
+                  Not Great
+                  <input type="radio" name="easiness" id="easiness" value="not easy">
+                  Still Lackin'
+                  <input type="radio" name="easiness" id="easiness" value="ave">
+                  Meh
+                  <input type="radio" name="easiness" id="easiness" value="easy">
+                  Decent
+                  <input type="radio" name="easiness" id="easiness" value="very easy">
+                  Professional Looking
+              </div>    
+          </div>
+
+          <div class="mb-3  ">
+              <label for="exampleFormControlTextarea1" class="form-label  ">Other remarks</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <div class="valid-feedback  ">
+                Any feedback is Great
+              </div>
+          </div>
+        
+          <!-- Final Section -->
+          <div class="mb-4  ">
+              <label for="customRange1" class="form-label">Intrested in any of these</label>
+              <div class="space-between">
+                  <input type="checkbox" name="contact" id="contact" value="SP Journey">
+                  SP Journey
+                  <input type="checkbox" name="contact" id="contact" value="Future College">
+                  Future College
+                  <input type="checkbox" name="contact" id="contact" value="Worklife & Interns">
+                  Worklife & Interns
+                  <input type="checkbox" name="contact" id="contact" value="Potential Startup?">
+                  Potential Startup?
+              </div>
+          </div>
+
+          <div class="form-check form-switch mb-3  ">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Turn on to receive updates on this website</label>
+        </div>
+
+        <p><input name="submit" id="submit" type="submit" value="Submit" style="background-color:rgb(255, 214, 176)"> Feedback</p>
+
+        </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

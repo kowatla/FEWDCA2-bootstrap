@@ -1,0 +1,53 @@
+/* This file is for the cards */
+
+/* Styling Cards */
+/* Outlines cards */
+.card {
+    border: solid rgb(173, 132, 114) !important;
+    background-color: rgb(249, 223, 212) !important;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .3);
+}
+
+/* Gives harder and footer diff backgrounds */
+.card-header {
+    background-color: rgb(253, 219, 203) !important;
+    border-radius: 5px !important;
+}
+.card-footer {
+    background-color: rgb(253, 219, 203) !important;
+    border-radius: 5px !important;
+}
+
+
+/* Buttons in card */
+/* Highlights the current page on the nav bar */
+.btn {
+    background-color: rgb(173, 132, 114) !important;
+    border-radius: 5px;
+    border-color: rgb(173, 132, 114) !important;
+    color: white !important;
+}
+
+/* Highlights the nav page hovered on */
+.btn:hover {
+    background-color: rgb(216, 174, 156) !important;
+    border-radius: 5px;
+    color: black !important;
+}
+
+
+/* Accordions in card */
+/* Highlights the current page on the nav bar */
+.accordion-button {
+    background-color: rgb(173, 132, 114) !important;
+    border-radius: 5px;
+    border-color: rgb(173, 132, 114) !important;
+    color: black !important;
+}
+
+/* Highlights the nav page hovered on */
+.accordion-body {
+    background-color: rgb(216, 174, 156) !important;
+    border-radius: 5px;
+}

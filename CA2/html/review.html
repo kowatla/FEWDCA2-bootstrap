@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="tint">
+    <script src="../js/main.js" defer></script>
+    <div class="container-fluid">
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container" id="expandnav">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><img class="icons" src="../svgs&pics/home.svg" height="20"> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="thetrailbehind.html"><img class="icons" src="../svgs&pics/behind.svg" height="20"> The Trail Behind</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="thetrailahead.html"><img class="icons" src="../svgs&pics/ahead.svg" height="20"> The Trail Ahead</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="languages.html"><img class="icons" src="../svgs&pics/code.svg" height="20"> Languages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="thesidetrails.html"><img class="icons" src="../svgs&pics/side.svg" height="20"> The Side Trails</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="icons" src="../svgs&pics/likes.svg" height="20"> More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" aria-current="page" href="review.html">Tea Review</a></li>
+                  <li><a class="dropdown-item" href="form.html">Feedback</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- First Panel -->
+      <div class="container ms-sm-0 ms-md-5 col-10 text-wrap contentpad  ">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title fs-1">Welcome to my <span class="highlight">Tea Review</span></h5>
+            <p class="card-text">Where I will be describing ranking  different Japanese Green Tea</p>
+          </div>
+          <div class="card-footer text-muted">
+            i drink tea a lot
+          </div>
+        </div>
+      </div>
+
+      <!-- Table panel -->
+      <div class="container ms-sm-0 ms-md-5 col-10 text-wrap contentpad  ">
+        <table class="table">
+          <thead>
+            <!-- Headers -->
+            <tr>
+              <th scope="col">Type</th>
+              <th scope="col">How it's made</th>
+              <th scope="col">Ingredients</th>
+              <th scope="col">Preparation method</th>
+              <th scope="col">Rating</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <!-- Row 1 -->
+            <tr>
+              <th scope="row">Sencha</th>
+              <td>
+                cultivated in direct sunlight, harvested in the first or second
+                flush
+              </td>
+              <td>Green Tea Leaves</td>
+              <td>Add near-boiling water for two minutes</td>
+              <td>3/5</td>
+            </tr>
+
+            <!-- Row 2 -->
+            <tr>
+              <th scope="row">Genmaicha</th>
+              <td>harvested during the second flush of sencha</td>
+              <td>Green Tea Leaves, Mochi Rice, Uruchimai</td>
+              <td>Add boiled water for three minutes</td>
+              <td rowspan="2">4/5</td>
+            </tr>
+
+            <!-- Row 3 -->
+            <tr>
+              <th scope="row">Hojicha</th>
+              <td>slowly roasting tightly rolled dried tea leaves</td>
+              <td>Dried Green Tea Leaves and stems</td>
+              <td>
+                gently simmer in a saucepan, add loose leaf, and low steep two
+                minutes
+              </td>
+            </tr>
+
+            <!-- Row 4 -->
+            <tr>
+              <th scope="row">Matcha</th>
+              <td>green tea leaves stone-ground into delicate powder</td>
+              <td>Green Tea Powder</td>
+              <td>Cool water for 90s and throughly stir with Matcha</td>
+              <td>4.5/5</td>
+            </tr>
+
+            <!-- Row 5 -->
+            <tr>
+              <th scope="row">Konacha</th>
+              <td>
+                composed of the dust, tea buds and leaves after processing
+                Sencha
+              </td>
+              <td>Green tea dust</td>
+              <td>Boil with water for three minutes</td>
+              <td>-/5</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Buffer Panel -->
+      <div class="container ms-sm-0 ms-md-5 col-10 text-wrap contentpad  ">
+        
+      </div>
+
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

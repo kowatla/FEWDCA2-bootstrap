@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Trail Ahead</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="tint">
+    <script src="../js/main.js" defer></script>
+    <script src="../js/animations/a.js" defer></script>
+    <div class="container-fluid">
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container" id="expandnav">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><img class="icons" src="../svgs&pics/home.svg" height="20"> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="thetrailbehind.html"><img class="icons" src="../svgs&pics/behind.svg" height="20"> The Trail Behind</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="thetrailahead.html"><img class="icons" src="../svgs&pics/ahead.svg" height="20"> The Trail Ahead</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="languages.html"><img class="icons" src="../svgs&pics/code.svg" height="20"> Languages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="thesidetrails.html"><img class="icons" src="../svgs&pics/side.svg" height="20"> The Side Trails</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="icons" src="../svgs&pics/likes.svg" height="20"> More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="review.html">Tea Review</a></li>
+                  <li><a class="dropdown-item" href="form.html">Feedback</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Animations -->
+      <div class="container ms-sm-0 ms-md-5 text-wrap contentpad  " id="ani">
+        <span class="placeholder col-3"></span>
+        <span class="placeholder col-10"></span>
+        <span class="placeholder col-10"></span>
+        <span class="placeholder col-10"></span>
+        <span class="placeholder col-2"></span>
+      </div>
+
+      <!-- First Panel -->
+      <div class="container ms-sm-0 ms-md-5 text-wrap contentpad  ">
+        <div class="card col-md-11">
+
+          <div class="card-body">
+            <h5 class="card-title fs-1">Future Employment</h5>
+            <p class="card-text">As you have read, I have chosen to pursue App Development as I feel most comfortable Developing with Swift for iOS native. That being said I am also keen on building some knowledge for Kotlin and Dart</p>
+
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Why choose to work in Big Tech?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Big Tech has years of experience that I can learn from, on top of an organized structure
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Why choose to work in Small Startups?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Startups provide an insight to how the product is built, focusing on product over profits
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br>
+
+            <a href="#student" class="btn">See Study Path</a>
+            <a href="#bigtech" class="btn">See Big Tech</a>
+            <a href="#startup" class="btn">See Small Startups</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Student Panel -->
+      <div class="container ms-sm-0 ms-md-5 text-wrap contentpad  ">
+        <div class="card col-md-11" id="student">
+          <img src="../svgs&pics/boston.jpg">
+
+          <div class="card-body">
+            <h5 class="card-title fs-1">Student Life</h5>
+            <p class="card-text">I will be studying locally except for exchange which I hope would be in Boston</p>
+
+          
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Singapore Poly
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    In SP, I hope to be able to learn about, become skillful with, and acquire real world experience with FrontEnd App Development through the many internship opportunities. This would give me a base level understanding of how apps can be developed and the common taboos that we would encounter in a more advanced level of App Development
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    NUS
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    At NUS, I want to enrich and enhance my AppDev Skills from SP even further and work with big companies and local startups to get to sharpen up skills and know how to develop apps inside out, from frontend to backend. The exchange program in college would also be an amazing opportunity. 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+            
+          </div>
+
+
+
+      </div>
+
+      <!-- Bigtech Panel -->
+      <div class="container ms-sm-0 ms-md-5 text-wrap contentpad  ">
+        <div class="card col-md-11" id="bigtech">
+          <img src="../svgs&pics/sf.jpg">
+
+          <div class="card-body">
+            <h5 class="card-title fs-1">Big Tech</h5>
+            <p class="card-text">Most of these selections are found in Silicon Valley with the exception of Duolingo</p>
+
+          
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Netflix
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Netflix is a really good entry point into FAANG companies as it is relatively small but still provides really good opportunities for innovation and creativity. Netflix is written in Python and makes for easy cross platform development.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Apple & Google
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Apple & Google are arguably the most successful tech companies and are really desirable environments to work in. Both companies have incredible resources and employees that work in them. They have a huge emphasis on human resource and development and offer many attractive perks to work with. All in all working in these giants would be a privilege that I would not resist. The main difference between these giants are the organization structures. Apple has operates in a centralized and unified structure while google operates with a decentralized and diversified structure. Both systems have their advantages and I hope to experience working in both companies in the future.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Microsoft
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    A pioneer in the tech industry, Microsoft has stood the test of time and is continuing to innovate in new technologies like augmented reality and improving their existing software. It also offers a good work-life balance through offers like a robust benefits package and high salary.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+            
+          </div>
+
+
+
+      </div>
+
+      <!-- Startup Panel -->
+      <div class="container ms-sm-0 ms-md-5 text-wrap contentpad  ">
+        <div class="card col-md-11" id="startup">
+          <img src="../svgs&pics/ny.jpg">
+
+          <div class="card-body">
+            <h5 class="card-title fs-1">Small Startups</h5>
+            <p class="card-text">Most of these selections are found in The Big Apple with the exception of Duolingo</p>
+
+          
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Kickstarter
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    A small startup in NYC that is also a Public Benefit Corporation, Kickstarter places more emphasize on the product and bringing good to the public rather than raw profits. This people over profit priority is something that is prominent in Big Tech but for a small startup to organize itself for this commitment is something that I am quite fascinated about.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Skillshare
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    This progressive workspace offers the best employee benefits ranging from Unlimited vacation to Paid sabbaticals for tenured employees, skillshare offers a workspace where employees can feel comfortable working for and in.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Squarespace
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Truly one of the most progressive startups in the world, Squarespace has revolutionized the work environment with award winning workplace environments. I believe that at Squarespace I would be able to hone my skills and learn whist keeping a healthy social life
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Duolingo
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Founded on the principles of a workplace that makes its employees feel happy and content, Duolingo houses one of the most progressive workplaces with wide diversity and the drive to develop a service that changes the world for a better place. Duolingo is one of the most desired places to work at
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+            
+          </div>
+
+
+
+      </div>
+
+      <!-- Buffer Panel -->
+      <div class="container ms-sm-0 ms-md-5 text-wrap contentpad  ">
+
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
